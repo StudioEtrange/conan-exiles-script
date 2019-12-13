@@ -1,6 +1,8 @@
-#!/bin/sh
+#!/bin/bash
+_CURRENT_FILE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+_CURRENT_RUNNING_DIR="$( cd "$( dirname "." )" && pwd )"
 
-STEAM_APP_PATH="/home/nomorgan/exiles"
+. $_CURRENT_FILE_DIR/conf.sh
 
 # nohup -- /home/nomorgan/conan-exiles.sh 1>/home/nomorgan/conan-exiles.log 2>&1 &
 export WINEARCH=win64

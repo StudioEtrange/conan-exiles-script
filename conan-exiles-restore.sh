@@ -1,7 +1,8 @@
-#!/bin/sh
-STEAM_CMD_PATH="/home/nomorgan/steamcmd"
-STEAM_APP_ID="443030"
-STEAM_APP_PATH="/home/nomorgan/exiles"
+#!/bin/bash
+_CURRENT_FILE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+_CURRENT_RUNNING_DIR="$( cd "$( dirname "." )" && pwd )"
+
+. $_CURRENT_FILE_DIR/conf.sh
 
 tarballName="configBackup_$(date +%Y-%m-%d_%H-%M).tar.gz"
 tarball2Name="savedConfigBackup_$(date +%Y-%m-%d_%H-%M).tar.gz"

@@ -5,8 +5,9 @@ STELLA_LOG_STATE="OFF"
 . $_CURRENT_FILE_DIR/stella-link.sh include
 
 
+. $_CURRENT_FILE_DIR/conf.sh
 
-STEAM_APP_PATH="/home/nomorgan/exiles"
+
 CONFIG_PATH="$STEAM_APP_PATH/ConanSandbox/Saved/Config/WindowsServer"
 
 
@@ -30,3 +31,4 @@ $STELLA_API add_key "$CONFIG_PATH/Engine.ini" "OnlineSubsystem" "ServerPassword"
 $STELLA_API add_key "$CONFIG_PATH/ServerSettings.ini" "ServerSettings" "AdminPassword" "$2"
 
 
+echo "You need to reboot server"
