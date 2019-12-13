@@ -5,8 +5,8 @@ _CURRENT_RUNNING_DIR="$( cd "$( dirname "." )" && pwd )"
 . $_CURRENT_FILE_DIR/conf.sh
 
 
-APP_MOD_PATH="$STEAM_APP_PATH/ConanSandbox/Mods"
-APP_MODLIST_FILE="$APP_MOD_PATH/modlist.txt"
+APP_MODLIST_PATH="$STEAM_APP_PATH/ConanSandbox/Mods"
+APP_MODLIST_FILE="$APP_MODLIST_PATH/modlist.txt"
 
 
 mkdir -p $APP_MOD_PATH
