@@ -23,11 +23,11 @@ if [ "$2" = "" ]; then
 fi
 
 
-# password to access server in OnlineSubsystem section
+# Set access password to play on the server (OnlineSubsystem section)
 touch $CONFIG_PATH/Engine.ini
 $STELLA_API add_key "$CONFIG_PATH/Engine.ini" "OnlineSubsystem" "ServerPassword" "$1"
 
-# admin password to get admin right in ServerSettings section
+# Set admin password to get admin right ingame through options menu (ServerSettings section)
 $STELLA_API add_key "$CONFIG_PATH/ServerSettings.ini" "ServerSettings" "AdminPassword" "$2"
 
 
