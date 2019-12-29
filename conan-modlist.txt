@@ -1,3 +1,4 @@
+1369743238	# Less Building Placement Restrictions
 1113901982	# The Age of Calamitous 
 864199675	# Pickup+ 
 1394768794	# IMMERSE RP : Buildings & Placeables Decor
@@ -6,4 +7,4 @@
 863041645	# Greater Camera Distance
 1185321962	# LTs Compass
 1396310739	# Stacksize Plus
-
+1403991684	# Exile Architect
